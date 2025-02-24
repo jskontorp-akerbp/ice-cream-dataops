@@ -2,7 +2,10 @@ environment:
   name: test
   project: cdf-bootcamp-13-test # ex. cdf-bootcamp-01-test
   type: test # prod, staging, dev, test, qa
-  selected: bootcamp
+  selected:
+  - modules/bootcamp/data_foundation
+  - modules/bootcamp/ice_cream_api
+  - modules/bootcamp/use_cases/oee
 
 variables:
   modules:
