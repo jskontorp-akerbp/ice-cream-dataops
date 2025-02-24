@@ -1,6 +1,6 @@
 name: icapi_extractors
 sourceId: {{ icapi_extractors_source_id }}
-capabilites:
+capabilities:
   - datasetsAcl:
       actions: [READ]
       scope:

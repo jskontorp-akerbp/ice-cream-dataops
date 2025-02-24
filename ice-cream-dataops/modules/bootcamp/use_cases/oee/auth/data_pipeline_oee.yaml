@@ -1,6 +1,6 @@
 name: data_pipeline_oee
 sourceId: {{ data_pipeline_oee_source_id }}
-capabilites:
+capabilities:
   - datasetsAcl:
       actions: [READ]
       scope:
