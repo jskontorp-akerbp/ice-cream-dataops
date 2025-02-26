@@ -32,7 +32,7 @@ workflowDefinition:
       onFailure: abortWorkflow
       dependsOn: 
         - externalId: contextualize_ts_assets_task
-    - externalId: 
+    - externalId: oee_timeseries_task
       type: function
       parameters:
         function:
